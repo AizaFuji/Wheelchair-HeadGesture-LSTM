@@ -32,8 +32,6 @@ The model detects and classifies five gestures:
 
 ## ⚙️ System Architecture
 
-![System Diagram](docs/system_diagram.png)
-
 1. **Camera** captures head movements.  
 2. **MediaPipe** extracts facial landmarks (x, y, z).  
 3. **Data normalization** aligns features using interocular distance.  
